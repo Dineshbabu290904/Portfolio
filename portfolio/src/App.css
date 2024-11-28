@@ -9,7 +9,8 @@ body, h1, h2, h3, p, ul, li, a, form, input, textarea, button {
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  background-color: #f8f9fa;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e0e0e0 100%);
+  color: #333;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
