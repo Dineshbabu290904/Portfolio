@@ -89,7 +89,7 @@ section h2::after {
   margin-top: 1rem;
   color: #555;
   opacity: 1;
-  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  background: linear-gradient(180deg, #bae6b6, #88ecd7);
   box-shadow: 5px 5px 15px #d9d9d9, -5px -5px 15px #ffffff;
   padding: 1rem;
   text-align: center;
@@ -116,7 +116,7 @@ section h2::after {
 }
 
 #skills li {
-  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  background: linear-gradient(180deg, #bae6b6, #88ecd7);
   box-shadow: 5px 5px 15px #d9d9d9, -5px -5px 15px #ffffff;
   padding: 1.5rem;
   text-align: center;
@@ -178,7 +178,7 @@ section h2::after {
   position: relative;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  background: linear-gradient(180deg, #bae6b6, #88ecd7);
   box-shadow: 5px 5px 15px #d9d9d9, -5px -5px 15px #ffffff;
   padding: 1rem;
   text-align: center;
@@ -216,7 +216,7 @@ section h2::after {
   margin-top: 1rem;
   text-align: justify;
   color: #555;
-  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  background: linear-gradient(180deg, #bae6b6, #88ecd7);
   box-shadow: 5px 5px 15px #d9d9d9, -5px -5px 15px #ffffff;
   padding: 1rem;
   text-align: center;
