@@ -105,10 +105,9 @@ section h2::after {
   box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
 }
 
-/* Skills Section */
 #skills ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
   list-style: none;
   margin: 1rem 0;
@@ -118,16 +117,50 @@ section h2::after {
 #skills li {
   background: linear-gradient(145deg, #ffffff, #e6e6e6);
   box-shadow: 5px 5px 15px #d9d9d9, -5px -5px 15px #ffffff;
-  padding: 1rem;
+  padding: 1.5rem;
   text-align: center;
   border-radius: 10px;
+  font-size: 1.2rem;
   transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+#skills li i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Automatic Coloring with HSL */
+#skills li:nth-child(1) i { color: hsl(0, 80%, 60%); } /* Red */
+#skills li:nth-child(2) i { color: hsl(30, 80%, 60%); } /* Orange */
+#skills li:nth-child(3) i { color: hsl(60, 80%, 60%); } /* Yellow */
+#skills li:nth-child(4) i { color: hsl(90, 80%, 60%); } /* Green */
+#skills li:nth-child(5) i { color: hsl(120, 80%, 60%); } /* Light Green */
+#skills li:nth-child(6) i { color: hsl(150, 80%, 60%); } /* Teal */
+#skills li:nth-child(7) i { color: hsl(180, 80%, 60%); } /* Cyan */
+#skills li:nth-child(8) i { color: hsl(210, 80%, 60%); } /* Blue */
+#skills li:nth-child(9) i { color: hsl(240, 80%, 60%); } /* Indigo */
+#skills li:nth-child(10) i { color: hsl(270, 80%, 60%); } /* Violet */
+#skills li:nth-child(11) i { color: hsl(300, 80%, 60%); } /* Purple */
+#skills li:nth-child(12) i { color: hsl(330, 80%, 60%); } /* Pink */
+#skills li:nth-child(13) i { color: hsl(360, 80%, 60%); } /* Red (Recycled) */
+#skills li:nth-child(14) i { color: hsl(15, 80%, 60%); } /* Orange (Recycled) */
+#skills li:nth-child(15) i { color: hsl(45, 80%, 60%); } /* Yellow (Recycled) */
+#skills li:nth-child(16) i { color: hsl(75, 80%, 60%); } /* Green (Recycled) */
+#skills li:nth-child(17) i { color: hsl(105, 80%, 60%); } /* Light Green (Recycled) */
+#skills li:nth-child(18) i { color: hsl(135, 80%, 60%); } /* Teal (Recycled) */
+#skills li:nth-child(19) i { color: hsl(165, 80%, 60%); } /* Cyan (Recycled) */
+#skills li:nth-child(20) i { color: hsl(195, 80%, 60%); } /* Blue (Recycled) */
 
 #skills li:hover {
   transform: scale(1.1);
   box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
 }
+
+
 
 /* Projects Section */
 #projects ul {
