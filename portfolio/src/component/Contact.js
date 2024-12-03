@@ -1,24 +1,25 @@
 import React from 'react';
 
 const Contact = () => (
-  <section id="contact" className="container py-5">
-    <h2>Contact Me</h2>
-    <form>
-      <div className="mb-3">
-        <label htmlFor="name" className="form-label">Name</label>
-        <input type="text" id="name" className="form-control" />
-      </div>
-      <div className="mb-3">
-        <label htmlFor="email" className="form-label">Email</label>
-        <input type="email" id="email" className="form-control" />
-      </div>
-      <div className="mb-3">
-        <label htmlFor="message" className="form-label">Message</label>
-        <textarea id="message" className="form-control" rows="4"></textarea>
-      </div>
-      <button type="submit" className="btn btn-primary">Send</button>
-    </form>
-  </section>
+  <div class="header">
+    <h2>name: Dinesh Babu Surapaneni</h2>
+    <p><span style="font-size: 1.2em; font-weight: bold;">Aspiring Data Scientist & Software Developer</span></p>
+    <p>
+        <span class="iconify" data-icon="tabler:phone"></span> (+91) 6300575551
+    </p>
+    <p>
+        <span class="iconify" data-icon="tabler:mail"></span> 
+        <a href="mailto:dinesh.surapaneni@outlook.com">dinesh.surapaneni@outlook.com</a>
+    </p>
+    <p>
+        <span class="iconify" data-icon="tabler:brand-github"></span> 
+        <a href="https://github.com/Dineshbabu290904">Dineshbabu290904</a>
+    </p>
+    <p>
+        <span class="iconify" data-icon="tabler:brand-linkedin"></span> 
+        <a href="https://www.linkedin.com/in/dinesh-babu-surapaneni/">LinkedIn Profile</a>
+    </p>
+</div>
 );
 
 export default Contact;
