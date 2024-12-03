@@ -1,9 +1,11 @@
 import React from 'react';
 
 const Contact = () => (
-  <div class="header">
-    <h2>name: Dinesh Babu Surapaneni</h2>
-    <p><span style="font-size: 1.2em; font-weight: bold;">Aspiring Data Scientist & Software Developer</span></p>
+  <section id="contact" className="container py-5">
+    <h2>Contact Me</h2>
+    <div class="header">
+    <h3>Dinesh Babu Surapaneni</h3>
+    <p><span>Aspiring Data Scientist & Software Developer</span></p>
     <p>
         <span class="iconify" data-icon="tabler:phone"></span> (+91) 6300575551
     </p>
@@ -20,6 +22,7 @@ const Contact = () => (
         <a href="https://www.linkedin.com/in/dinesh-babu-surapaneni/">LinkedIn Profile</a>
     </p>
 </div>
+  </section>
 );
 
 export default Contact;

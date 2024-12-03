@@ -225,35 +225,47 @@ section h2::after {
 #experience p:hover {
   transform: scale(1.1);
   box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
-}
+} 
 
-/* Contact Section */
-form .form-label {
+/* Header Section */
+.header h3 {
+  font-size: 2rem;
   font-weight: bold;
-}
-
-form .form-control {
-  width: 100%;
-  padding: 0.5rem;
+  text-align: center;
+  color: #333;
   margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
 }
 
-form .btn {
-  background-color: #007bff;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+.header p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #555;
+  background: linear-gradient(180deg, #c8e6c9, #b2dfdb);
+  box-shadow: 5px 5px 15px #d9d9d9, -5px -5px 15px #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
 }
 
-form .btn:hover {
-  background-color: #0056b3;
+.header p:hover {
   transform: scale(1.05);
+  box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
 }
+
+.header p a {
+  color: #0277bd;
+  text-decoration: none;
+}
+
+.header p a:hover {
+  text-decoration: underline;
+}
+
+.header .iconify {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
 
 /* Footer */
 footer {
